@@ -1,0 +1,13 @@
+{
+  "name": "AirlineSim CEO Tools",
+  "version": "0.3.0",
+  "description": "Extends and improves your managing experience using AirlineSim.",
+  "manifest_version": 3,
+  "author": "Christian Böhme",
+  "content_scripts": [
+    {
+      "matches": ["https://*.airlinesim.aero/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
